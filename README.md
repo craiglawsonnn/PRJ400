@@ -78,19 +78,19 @@ The model uses a pre-trained backbone from the Detectron2 Model Zoo, which was f
 These configurations can be adjusted in the configs/foodseg103.yaml file.
 
 ## Results
-Precision: Achieved a precision score of 87% on the test set.
-Recall: The recall score was 85%, showing that the model captures most relevant segments.
-IoU: Intersection over Union (IoU) metric reached 82%, indicating effective segmentation.
+#### Precision: Achieved a precision score of 87% on the test set.
+#### Recall: The recall score was 85%, showing that the model captures most relevant segments.
+#### IoU: Intersection over Union (IoU) metric reached 82%, indicating effective segmentation.
 Here are some example results:
 
 Input Image	Ground Truth	Predicted Mask
 ## Challenges and Improvements
-Memory Management: Handling large datasets in memory was a challenge. This was mitigated using efficient data loading techniques and augmentation pipelines.
-Model Tuning: Fine-tuning model hyperparameters such as learning rate and batch size significantly improved performance.
+#### Memory Management: Handling large datasets in memory was a challenge. This was mitigated using efficient data loading techniques and augmentation pipelines.
+#### Model Tuning: Fine-tuning model hyperparameters such as learning rate and batch size significantly improved performance.
 ## Future Work
-Multi-Label Classification: Extend the current single-label segmentation to multi-label classification, where multiple food items can be recognized in a single image.
-Real-Time Inference: Optimize the model for real-time food segmentation on mobile and web platforms.
-Dataset Expansion: Incorporate additional food datasets to improve the model's ability to generalize across different cuisines.
+#### Multi-Label Classification: Extend the current single-label segmentation to multi-label classification, where multiple food items can be recognized in a single image.
+#### Real-Time Inference: Optimize the model for real-time food segmentation on mobile and web platforms.
+#### Dataset Expansion: Incorporate additional food datasets to improve the model's ability to generalize across different cuisines.
 
 ## Contributing
 If you wish to contribute, please feel free to open a pull request or an issue. Contributions are always welcome!
